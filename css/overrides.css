@@ -1,0 +1,50 @@
+/* Future edits go here. */
+/* The original exported stylesheet lives in vendor.css. */
+
+:root {
+  --primary: #c0001a;
+  --accent-bright: #ff1a36;
+}
+
+.hero-title-span,
+.nav-link-dot,
+.gallery-author-text {
+  color: var(--primary);
+}
+
+.hero-tag-discount,
+.section-tag-title-wrap,
+.about-item-shape-wrap._2,
+.service-item-btn,
+.service-item-shape,
+.primary-btn {
+  background-color: var(--primary);
+  border-color: var(--primary);
+}
+
+.hero-tag-discount-text,
+.primary-btn,
+.primary-btn:hover {
+  color: #ffffff;
+}
+
+.nav-link:hover,
+.nav-dropdown-toggle:hover,
+.nav-dropdown-icon:hover,
+.nav-dropdown-title:hover,
+.footer-contact-text:hover,
+.footer-essential-link:hover,
+.footer-other-link:hover,
+.footer-bottom-link:hover {
+  color: var(--accent-bright);
+}
+
+.nav-dropdown-link:hover,
+.nav-dropdown-link.w--current,
+.footer-social-widget:hover,
+.team-details-social-widget:hover,
+.b-details-social-widget:hover,
+.submit-btn:hover {
+  background-color: var(--accent-bright);
+  border-color: var(--accent-bright);
+}

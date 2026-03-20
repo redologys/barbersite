@@ -1,0 +1,1 @@
+/* Placeholder intentionally unused. Original scripts remain inline in index.html. */
