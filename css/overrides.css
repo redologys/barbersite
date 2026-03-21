@@ -72,3 +72,34 @@
 .w-nav-brand *, .nav-logo-link * {
     display: none !important;
 }
+/* Replace nav logo with image */
+.w-nav-brand {
+    display: flex !important;
+    align-items: center;
+}
+
+.w-nav-brand::before {
+    content: '';
+    display: block;
+    background-image: url('./logo.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 150px;
+    height: 45px;
+}
+
+.w-nav-brand img, .w-nav-brand svg, .w-nav-brand span, .w-nav-brand div {
+    display: none !important;
+}
+/* Nav logo placeholder */
+a.logo-wrap img {
+    display: none !important;
+}
+
+a.logo-wrap::after {
+    content: '✂ Showtime Cuts';
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+    letter-spacing: 1px;
+}
