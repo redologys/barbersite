@@ -3733,7 +3733,7 @@ blockquote {
   font-weight: var(--_typography---body-m--font-weight);
   white-space: nowrap;
   -webkit-text-fill-color: transparent;
-  background-image: linear-gradient(90deg, #222 18%, #c9a170 80%);
+  background-image: linear-gradient(90deg, #CC0000, #880000);
   -webkit-background-clip: text;
   background-clip: text;
 }

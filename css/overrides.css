@@ -116,3 +116,27 @@ a.logo-wrap::after {
 .gallery-author-info, .gallery-author-wrap {
     background: rgba(180, 0, 0, 0.55) !important;
 }
+/* Force marquee red gradient on all screen sizes */
+@media screen and (max-width: 991px) {
+    .marquee-title {
+        background: linear-gradient(90deg, #CC0000, #880000) !important;
+        -webkit-background-clip: text !important;
+        -webkit-text-fill-color: transparent !important;
+        background-clip: text !important;
+    }
+    
+    .w-webflow-badge { display: none !important; }
+    
+    .about-item-content {
+        background: rgba(180, 0, 0, 0.55) !important;
+    }
+}
+
+@media screen and (max-width: 479px) {
+    .marquee-title {
+        background: linear-gradient(90deg, #CC0000, #880000) !important;
+        -webkit-background-clip: text !important;
+        -webkit-text-fill-color: transparent !important;
+        background-clip: text !important;
+    }
+}
