@@ -103,3 +103,16 @@ a.logo-wrap::after {
     color: white;
     letter-spacing: 1px;
 }
+/* Stars red */
+.h-author-rating-icon, [class*="rating"] img, [class*="star"] img {
+    filter: hue-rotate(180deg) saturate(5) brightness(0.8) sepia(1) hue-rotate(-50deg);
+}
+/* About item card background - red tint transparent */
+.about-item-content {
+    background: rgba(180, 0, 0, 0.55) !important;
+}
+
+/* Gallery author card background */
+.gallery-author-info, .gallery-author-wrap {
+    background: rgba(180, 0, 0, 0.55) !important;
+}
