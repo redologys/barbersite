@@ -2079,7 +2079,7 @@ textarea.w-input, textarea.w-select {
   --_typography---body-m--font-weight: 600;
   --_typography---body-xxl--letter-spacing: -0.03em;
   --_typography---h1--font-weight: 600;
-  --primary: #c9a170;
+  --primary: #CC0000;
   --_spacing---spacing-s: 60px;
   --_typography---body-xxs--font-family: Geist, sans-serif;
   --_typography---body-l--letter-spacing: -0.03em;
@@ -2615,7 +2615,7 @@ blockquote {
 .c-hero-section.contact {
   padding-top: var(--_spacing---spacing-xl);
   padding-bottom: var(--_spacing---spacing-l);
-  background-image: radial-gradient(circle, #0000, #000), linear-gradient(90deg, #212121, #716647 50%, #70654a);
+  background-image: radial-gradient(circle, #0000, #000), linear-gradient(90deg, #212121, #880000 50%, #880000);
 }
 
 .c-hero-section.team {
@@ -5868,7 +5868,7 @@ blockquote {
   body {
     --black: black;
     --white-16: #ffffff29;
-    --primary: #c9a170;
+    --primary: #CC0000;
     --white: white;
     --body-2: #222;
     --white-10: #ffffff1a;
@@ -6949,7 +6949,7 @@ blockquote {
   body {
     --black: black;
     --white-16: #ffffff29;
-    --primary: #c9a170;
+    --primary: #CC0000;
     --white: white;
     --body-2: #222;
     --white-10: #ffffff1a;
@@ -7569,7 +7569,7 @@ blockquote {
   body {
     --black: black;
     --white-16: #ffffff29;
-    --primary: #c9a170;
+    --primary: #CC0000;
     --white: white;
     --body-2: #222;
     --white-10: #ffffff1a;
