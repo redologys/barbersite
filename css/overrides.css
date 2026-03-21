@@ -48,3 +48,27 @@
   background-color: var(--accent-bright);
   border-color: var(--accent-bright);
 }
+/* Hide Webflow badge */
+.w-webflow-badge { display: none !important; }
+
+/* Marquee text - red gradient */
+.marquee-title {
+    background: linear-gradient(90deg, #CC0000, #880000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+/* Nav logo replacement */
+.w-nav-brand, .nav-logo-link {
+    background-image: url('../logo.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center left;
+    min-width: 150px;
+    min-height: 50px;
+}
+
+.w-nav-brand *, .nav-logo-link * {
+    display: none !important;
+}
